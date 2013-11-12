@@ -1,0 +1,49 @@
+{
+    "name": "money",
+    "version": "1.0.1",
+    "description": "Provides monetary mathematical operations and textual formatting.",
+    "main": "./WakandaProject/Modules/money.js",
+    "keywords": [
+        "wakanda",
+        "javascript",
+        "money"
+        ],
+    "author": {
+        "name": "Jeff Grann",
+        "web": "https://github.com/jeffgrann"
+    },
+    "maintainers": [
+        {
+        "name": "Jeff Grann",
+        "web": "https://github.com/jeffgrann"
+    }
+    ],
+    "contributors": [
+        ],
+    "bugs": {
+        "web": "https://github.com/jeffgrann/money/issues"
+    },
+    "licenses": [
+        {
+        "type": "MIT",
+        "url": "https://github.com/jeffgrann/money/blob/master/LICENSE"
+    }
+    ],
+    "repositories": [
+        {
+        "type": "git",
+        "url": "https://github.com/jeffgrann/money"
+    }
+    ],
+    "dependencies": {
+        "server-side": {
+            "wakanda": "6.146205"
+        },
+        "browser-side": {
+            "requireJS": "2.1.8"
+        }
+    },
+    "os": ["linux", "macos", "win"],
+    "engines": ["wakanda"
+                  ]
+}
